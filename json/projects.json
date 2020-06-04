@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Swoop",
+        "tools": ["HTML", "CSS", "JavaScript", "React"],
+        "description": "Swoop is a game dedicated to promote relaxation through lines and colors."
+    },
+    {
+        "name": "LeagueGG",
+        "tools": ["Python", "API"],
+        "description": "A discord bot that allows you to quickly find the statistic of League of Legend's players through commands."
+    },
+    {
+        "name": "Resume Website",
+        "tools": ["HTML", "CSS", "JavaScript", "React"],
+        "description": "A website to display my resume in a web styled format."
+    },
+    {
+        "name": "Coffee Ordering App",
+        "tools": ["UX & UI", "Prototype", "Figma"],
+        "description": "Prototype created with figma for an imaginary coffee shop."
+    },
+    {
+        "name": "Welcome to Panama",
+        "tools": ["HTML", "CSS", "JavaScript", "PHP"],
+        "description": "Tourist website for my hometown Panama."
+    },
+    {
+        "name": "Where Now",
+        "tools": ["UX & UI", "Prototype", "Figma"],
+        "description": "Where Now is the prototype for an application that randomizes vacation locations adn shows you what there is to visit."
+    },
+    {
+        "name": "COVID-19 Tracker - Web",
+        "tools": ["HTML", "CSS", "JavaScript", "API"],
+        "description": "A web application to get the information about the COVID-19 epidemic."
+    },
+    {
+        "name": "COVID-19 Tracker - Mobile",
+        "tools": ["Cordova", "HTML", "CSS", "JavaScript", "API"],
+        "description": "A mobile application to get information about the COVID-19 epidemic"
+    }
+    
+]

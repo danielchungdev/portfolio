@@ -7,6 +7,21 @@
 }
 
 /* Navigation Bar */
+    .logo{
+        width: 5vw;
+        height: 5vh;
+        background-image: url(../images/logo-grayscale.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+
+    .logo:hover{
+        background-image: url("../images/logo.png");
+    }
+
     nav{
         font-weight: 700;
         margin-left: 10%;
@@ -23,6 +38,8 @@
         display: inline-block;
         margin-left: 2.5%;
         margin-right: 2.5%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     nav ul li a{
         color: rgb(139, 139, 139);
@@ -183,9 +200,10 @@
         width: 140%;
     }
 
-    .project-right img{
+    .project-right a img{
         width: 100%;
         height: auto;
+        background-color: transparent;
     }
 
 /* FOOTER */
@@ -275,3 +293,524 @@
         color: #E0BB20;
         transition: all 0.5s ease-in;
     }
+
+/* About */
+
+    .about-box{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        width: 50%;
+        height: 50%;
+        display: flex;
+        margin-bottom: 5%;
+    }
+
+    .about-left{
+        margin-top: auto;
+        width: 60%;
+    }
+
+    .about-right{
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 40%;
+    }
+
+    .about-left p {
+        font-size: 140%;
+        margin-bottom: 2%;
+    }
+
+    .about-right img{
+        object-fit: contain;
+        width: 100%;
+    }
+
+    .about-left .information{
+        margin-right: 7%;
+    }
+
+    .connect-with-me ul{
+        width: 100%;
+        display: flex;
+        list-style: none;
+    }
+
+    .connect-with-me ul{
+        display: flex;
+        list-style: none;
+        margin: auto;
+        width: 60%;
+    }
+
+    .connect-with-me ul li{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .connect-with-me P{
+        margin: auto;
+        width: 50%;
+        margin-bottom: 2%;
+    }
+
+    .connect-with-me{
+        margin-top: 5%;
+    }
+
+    .connect-with-me ul a{
+        text-decoration: none;
+        transition: all 0.5s ease-out;
+    }
+
+    .connect-with-me ul a:hover{
+        text-decoration: none;
+        color: #e29b58;
+        transition: all 0.5s ease-in;
+    }
+
+    /* .about-active a{
+        color: #333333;
+    } */
+
+
+    @media only screen and (max-width: 1600px) {
+        nav{
+            font-weight: 700;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 2.5%;
+        }
+
+        .project-left{
+            display: none;
+        }
+
+        .intro-box{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75vw;
+        }
+
+        .about-box{
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 10%;
+            width: 90%;
+            height: 50%;
+            display: flex;
+            margin-bottom: 5%;
+        }
+    
+        .about-left{
+            margin-bottom: auto;
+            margin-top: auto;
+            width: 60%;
+        }
+    
+        .about-right{
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 40%;
+        }
+    
+        .about-left p {
+            font-size: 140%;
+            margin-bottom: 2%;
+        }
+    
+        .about-right img{
+            object-fit: contain;
+            width: 100%;
+        }
+    
+        .about-left .information{
+            margin-right: 7%;
+        }
+    
+        .connect-with-me ul{
+            width: 100%;
+            display: flex;
+            list-style: none;
+        }
+    
+        .connect-with-me ul{
+            display: flex;
+            list-style: none;
+            margin: auto;
+            width: 60%;
+        }
+    
+        .connect-with-me ul li{
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+    
+        .connect-with-me P{
+            margin: auto;
+            width: 50%;
+            margin-bottom: 2%;
+        }
+    
+        .connect-with-me{
+            margin-top: 5%;
+        }
+    
+        .connect-with-me ul a{
+            text-decoration: none;
+            transition: all 0.5s ease-out;
+        }
+    
+        .connect-with-me ul a:hover{
+            text-decoration: none;
+            color: #e29b58;
+            transition: all 0.5s ease-in;
+        }
+
+      }
+
+    @media only screen and (max-width: 1054px) {
+        nav{
+            font-weight: 700;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 2.5%;
+        }
+
+        .project-left{
+            display: none;
+        }
+
+        .intro-box{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75vw;
+        }
+
+        .about-box{
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+            width: 90%;
+            height: 50%;
+            display: flex;
+            margin-bottom: 20%;
+        }
+    
+        .about-left{
+            margin-top: auto;
+            width: 60%;
+        }
+    
+        .about-right{
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 40%;
+        }
+    
+        .about-left p {
+            font-size: 140%;
+            margin-bottom: 2%;
+        }
+    
+        .about-right img{
+            object-fit: contain;
+            width: 100%;
+        }
+    
+        .about-left .information{
+            margin-right: 7%;
+        }
+    
+        .connect-with-me ul{
+            width: 100%;
+            display: flex;
+            list-style: none;
+        }
+    
+        .connect-with-me ul{
+            display: flex;
+            list-style: none;
+            margin: auto;
+            width: 60%;
+        }
+    
+        .connect-with-me ul li{
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+    
+        .connect-with-me P{
+            margin: auto;
+            width: 50%;
+            margin-bottom: 2%;
+        }
+    
+        .connect-with-me{
+            margin-top: 5%;
+        }
+    
+        .connect-with-me ul a{
+            text-decoration: none;
+            transition: all 0.5s ease-out;
+        }
+    
+        .connect-with-me ul a:hover{
+            text-decoration: none;
+            color: #e29b58;
+            transition: all 0.5s ease-in;
+        }
+
+      }
+
+      /* Footer */
+
+      footer{
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2%;
+        grid-auto-rows: minmax(200px, auto);
+        background-color: #141414;
+        align-items: center;
+    } 
+
+    .one{
+        color: #fdfdfd;
+        background-color: #141414;
+
+    }
+
+    .two{
+        background-color: #141414;
+        color: #fdfdfd;
+        width: 70%;
+    }
+
+    .two .footer-content .title{
+        font-size: 100%;
+        font-weight: 500;
+        color: #fdfdfd;
+        background-color: #141414;
+    }
+
+    .three{
+        color: #fdfdfd;
+        background-color: #141414;
+        
+    }
+
+    .title-footer{
+        font-size: 100%;
+        font-weight: 500;
+        color: #fdfdfd;
+        background-color: #141414;
+    }
+
+    .three .footer-content{
+        width: 50%;
+    }
+
+    .footer-content{
+        background-color: #141414;
+        color: #fdfdfd;
+        font-size: 120%;
+        font-weight: 300;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .highlight{
+        color: #E0BB20;
+        background-color: #141414;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .footer-content-contact{
+        background-color: #141414;
+        color: #fdfdfd;
+        font-weight: 300;
+        margin-top: 2%;
+        width: 80%;
+        font-family: 'Roboto', sans-serif;
+        transition: all 0.5s ease-out;
+    }
+
+    .footer-content a{
+        text-decoration: none;
+    }
+
+    .footer-content a .footer-content-contact:hover{
+        color: #E0BB20;
+        transition: all 0.5s ease-in;
+    }
+
+
+
+.content{
+    animation: transitionIn 3s;
+}
+
+    @media only screen and (max-width: 900px) {
+        footer{
+            display: none;
+        }
+
+        .about-box{
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 10%;
+            width: 90%;
+            height: 50%;
+            display: flex;
+            margin-bottom: 5%;
+        }
+    
+        .about-left{
+            margin-top: auto;
+            width: 60%;
+        }
+    
+        .about-right{
+            margin-top: auto;
+            margin-bottom: auto;
+            width: 40%;
+        }
+    
+        .about-left p {
+            font-size: 140%;
+            margin-bottom: 2%;
+        }
+    
+        .about-right img{
+            object-fit: contain;
+            width: 100%;
+        }
+    
+        .about-left .information{
+            margin-right: 7%;
+        }
+    
+        .connect-with-me ul{
+            width: 100%;
+            display: flex;
+            list-style: none;
+        }
+    
+        .connect-with-me ul{
+            display: flex;
+            list-style: none;
+            margin: auto;
+            width: 60%;
+        }
+    
+        .connect-with-me ul li{
+            margin-left: 2.5%;
+            margin-right: 2.5%;
+        }
+    
+        .connect-with-me P{
+            margin: auto;
+            width: 50%;
+            margin-bottom: 2%;
+        }
+    
+        .connect-with-me{
+            margin-top: 5%;
+        }
+    
+        .connect-with-me ul a{
+            text-decoration: none;
+            transition: all 0.5s ease-out;
+        }
+    
+        .connect-with-me ul a:hover{
+            text-decoration: none;
+            color: #e29b58;
+            transition: all 0.5s ease-in;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .about-right{
+            display: none;
+        }
+
+        .about-left{
+            width: 100%;
+        }
+
+        .connect-with-me{
+            width: 100%;
+        }
+
+        .connect-with-me p{
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .connect-with-me ul{
+            width: 100%;
+            margin: 0;
+            justify-content: space-around;
+        }
+        .connect-with-me ul li{
+            margin: 0;
+        }
+        .information{
+            margin-left: 7%;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        .logo{
+            width: 20vw;
+        }
+
+        .right{
+            display: none;
+        }
+
+        .left{
+            width: 100%;
+        }
+
+        .content{
+            margin-top: 10%;
+        }
+        .project-container{
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+
+        .project-right a img{
+            width: 100%;
+        }
+
+        .about-box{
+            margin-left: 1%;
+            margin-right: 1%;
+        }
+    }
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

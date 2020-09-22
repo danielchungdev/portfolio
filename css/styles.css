@@ -1,121 +1,39 @@
+
 *{
     background-color: #fdfdfd;
     color: #333333;
-    font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
-
-html{
-    scroll-behavior: smooth;
-
-}
-
-/* Navigation Bar */
-    .logo{
-        width: 5vw;
-        height: 5vh;
-        background-image: url(../images/logo-grayscale.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        transition-property: all;
-        transition-duration: 0.5s;
-        transition-timing-function: ease-in-out;
-    }
-
-    .logo:hover{
-        background-image: url("../images/logo.png");
-    }
-
-    nav{
-        font-weight: 700;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 2.5%;
-    }
-
-    nav ul{
-        list-style: none;
-        display: flex;
-    }
-
-    nav ul li{
-        display: inline-block;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-    nav ul li a{
-        color: rgb(139, 139, 139);
-        text-decoration: none;
-        font-size: 150%;
-        transition: all 0.5s ease-out;
-    }
-
-    nav ul li:first-child {
-        margin-right: auto; 
-    }
-
-    nav ul li a:hover{
-        color: #333333;
-        transition: all 0.5s ease-in;
-    }
 
 /* Introduction */
-    .introduction{
-        font-size: 400%;
-        font-weight: 700;
-    }
-
+    
     .intro-box{
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 20% 40% 20% 20%;
     }
 
-    .my-name{
-        color: #E0BB20;
+    .introduction{
+        grid-column-start: 2;
+        place-self: center;
+        font-size: 200%;
     }
 
-    .intro-description{
-        margin-bottom: 1%;
-        font-size: 140%;
+    .introduction h1{
+        font-family: 'Roboto', sans-serif;
     }
 
-    .intro-current{
-        font-size: 120%;
-    }
-
-    .intro-container{
-        display: flex;
-    }
-
-    .right{
-        text-align: center;
-        width: 50%;
-        font-size: 1300%;
-    }
-
-    .right-two{
-        text-align: center;
-        width: 50%;
-    }
-
-    .right-two img{
-        width: 100%;
-    }
-
-    .left-two{
-        width: 50%;
+    .introduction p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 80%;
     }
 
     mark{
         display: inline-block;
-        background-color: #E0BB20;
+        background-color: #fce382;
         line-height: 0em;
         padding-bottom: 0.5em;
         padding-left: 0.2em;
@@ -172,6 +90,7 @@ html{
     .project-title{
         font-weight: 700;
         font-size: 300%;
+        font-family: 'Roboto', sans-serif;
     }
 
     .project-description{
@@ -275,8 +194,8 @@ html{
     }
 
     .highlight{
-        color: #E0BB20;
-        background-color: #141414;
+        color: #fce382;
+        background-color: transparent;
         font-weight: 300;
         font-family: 'Roboto', sans-serif;
     }
@@ -296,7 +215,7 @@ html{
     }
 
     .footer-content a .footer-content-contact:hover{
-        color: #E0BB20;
+        color: #fce382;
         transition: all 0.5s ease-in;
     }
 
@@ -372,7 +291,7 @@ html{
 
     .connect-with-me ul a:hover{
         text-decoration: none;
-        color: #e29b58;
+        color: #fce382;
         transition: all 0.5s ease-in;
     }
 
@@ -394,11 +313,24 @@ html{
         }
 
         .intro-box{
-            margin-top: 5%;
-            margin-bottom: 5%;
-            margin-left: auto;
-            margin-right: auto;
-            width: 75vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 20% 55% 5% 20%;
+        }
+    
+        .introduction{
+            grid-column-start: 2;
+            place-self: center;
+            font-size: 200%;
+        }
+    
+        .introduction h1{
+            font-family: 'Roboto', sans-serif;
+        }
+    
+        .introduction p{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 80%;
         }
 
         .about-box{
@@ -472,7 +404,7 @@ html{
     
         .connect-with-me ul a:hover{
             text-decoration: none;
-            color: #e29b58;
+            background-color: #fce382;
             transition: all 0.5s ease-in;
         }
 
@@ -491,11 +423,24 @@ html{
         }
 
         .intro-box{
-            margin-top: 5%;
-            margin-bottom: 5%;
-            margin-left: auto;
-            margin-right: auto;
-            width: 75vw;
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 10% 80% 10%;
+        }
+    
+        .introduction{
+            grid-column-start: 2;
+            place-self: center;
+            font-size: 200%;
+        }
+    
+        .introduction h1{
+            font-family: 'Roboto', sans-serif;
+        }
+    
+        .introduction p{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 80%;
         }
 
         .about-box{
@@ -568,7 +513,7 @@ html{
     
         .connect-with-me ul a:hover{
             text-decoration: none;
-            color: #e29b58;
+            color: #fce382;
             transition: all 0.5s ease-in;
         }
 
@@ -635,7 +580,7 @@ html{
     }
 
     .highlight{
-        color: #E0BB20;
+        color: #fce382;
         background-color: #141414;
         font-weight: 300;
         font-family: 'Roboto', sans-serif;
@@ -656,15 +601,9 @@ html{
     }
 
     .footer-content a .footer-content-contact:hover{
-        color: #E0BB20;
+        color: #fce382;
         transition: all 0.5s ease-in;
     }
-
-
-
-.content{
-    animation: transitionIn 3s;
-}
 
     @media only screen and (max-width: 900px) {
         footer{
@@ -741,7 +680,7 @@ html{
     
         .connect-with-me ul a:hover{
             text-decoration: none;
-            color: #e29b58;
+            color: #fce382;
             transition: all 0.5s ease-in;
         }
     }
@@ -783,12 +722,25 @@ html{
             width: 20vw;
         }
 
-        .right{
-            display: none;
+        .intro-box{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 5% 90% 5%;
         }
-
-        .left{
-            width: 100%;
+    
+        .introduction{
+            grid-column-start: 2;
+            place-self: center;
+            font-size: 200%;
+        }
+    
+        .introduction h1{
+            font-family: 'Roboto', sans-serif;
+        }
+    
+        .introduction p{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 80%;
         }
 
         .content{
@@ -809,14 +761,4 @@ html{
         }
     }
 
-@keyframes transitionIn{
-    from{
-        opacity: 0;
-        transform: rotateX(-10deg);
-    }
 
-    to{
-        opacity: 1;
-        transform: rotateX(0);
-    }
-}

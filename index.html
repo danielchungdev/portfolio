@@ -6,38 +6,29 @@
     <title>Daniel Chung</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="images/logo.png">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html"><div class="logo"></div></a></li>
-            <li><a href="#anchor">work</a></li>
-            <li><a href="about.html">about</a></li>
-            <li><a href="document/Resume.pdf" download>resume</a></li>
-        </ul>
-    </nav>
     <div class="content">
         <div class="intro-box">
-            <div class="intro-container">
-                <div class="left">
-                    <div class="introduction">Hello!</div>
-                    <div class="introduction">I'm <span class="my-name">Daniel</span></div>
-                    <div class="intro-description">
-                        I'm a <mark>web developer</mark> who has a passion for problem solving, simple design, efficient code and user experience.
-                    </div>
-                </div>
-                <div class="right">
-                    👨‍💻
+            <div class="introduction">
+                <div>
+                    <h1>Hi, I'm <mark>Daniel</mark></h1>
+                    <p>I develop web and mobile applications</p>
+                    <p>Currently a 4th year @ <mark>RIT</mark></p>
+                    <br>
+                    <p>Scroll Down to see my projects!</p>
+                    <p>Download my <a href="document/Resume_DanielChung2020.pdf" download="DanielChung_Resume2020"><mark>Resume</mark></a></p>
                 </div>
             </div>
         </div>
-        <div id="anchor"></div>
+
         <div class="project-container">
 
-            <div class="project">
+            <div class="project" data-sal="slide-up"
+            data-sal-delay="100"
+            data-sal-easing="easeInOutSine">
                 <div class="project-left">
                     <div class="project-title">COVID-19 Tracker</div>
                     <div class="tools">
@@ -55,45 +46,29 @@
                 </div>
             </div>
 
-            <div class="project">
+            <div class="project" data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="easeInOutSine">
                 <div class="project-left">
-                    <div class="project-title">DiscordGG</div>
+                    <div class="project-title">Where Now</div>
                     <div class="tools">
                         <ul>
-                            <li>Python</li>
-                            <li>API</li>
+                            <li>UI & UX</li>
+                            <li>Prototype</li>
+                            <li>Figma</li>
                         </ul>
                     </div>
-                    <div class="project-description">A discord bot that allows you to quickly find the statistic of League of Legend's players through commands.</div>
-                    <a href="https://github.com/pikachungg/Discord-opgg" target="_blank" class="project-link">Check my project!</a>
+                    <div class="project-description">Tourist website for my hometown Panama.</div>
+                    <a href="https://www.figma.com/proto/f07D2gA6wuwrOoxMovo4BJ/WhereNow?node-id=4%3A0&scaling=min-zoom" target="_blank" class="project-link">Check my project!</a>
                 </div>
                 <div class="project-right">
-                    <a href="https://github.com/pikachungg/Discord-opgg" target="_blank"><img src="images/leaguegg.png" alt="picture-of-project"></a>
+                    <a href="https://www.figma.com/proto/f07D2gA6wuwrOoxMovo4BJ/WhereNow?node-id=4%3A0&scaling=min-zoom" target="_blank"><img src="images/wherenow.png" alt="picture-of-project"></a>
                 </div>
             </div>
 
-
-            <div class="project">
-                <div class="project-left">
-                    <div class="project-title">Resume Website</div>
-                    <div class="tools">
-                        <ul>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                        </ul>
-                    </div>
-                    <div class="project-description">A website to display my resume in a web styled format.</div>
-                    <a href="https://pikachungg.github.io/Resume/" target="_blank" class="project-link">Check my project!</a>
-                </div>
-                <div class="project-right">
-                    <a href="https://pikachungg.github.io/Resume/" target="_blank"><img src="images/resume.png" alt="picture-of-project"></a>
-                </div>
-            </div>
-
-
-            <div class="project">
+            <div class="project" data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="easeInOutSine">
                 <div class="project-left">
                     <div class="project-title">Swoop</div>
                     <div class="tools">
@@ -113,7 +88,10 @@
             </div>
 
 
-            <div class="project">
+
+            <div class="project" data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="easeInOutSine">
                 <div class="project-left">
                     <div class="project-title">Coffe Ordering App</div>
                     <div class="tools">
@@ -131,8 +109,52 @@
                 </div>
             </div>
 
+            <div class="project" data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="easeInOutSine">
+                <div class="project-left">
+                    <div class="project-title">Resume Website</div>
+                    <div class="tools">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                    <div class="project-description">A website to display my resume in a web styled format.</div>
+                    <a href="https://pikachungg.github.io/Resume/" target="_blank" class="project-link">Check my project!</a>
+                </div>
+                <div class="project-right">
+                    <a href="https://pikachungg.github.io/Resume/" target="_blank"><img src="images/resume.png" alt="picture-of-project"></a>
+                </div>
+            </div>
 
-            <div class="project">
+
+            <div class="project" data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="easeInOutSine">
+                <div class="project-left">
+                    <div class="project-title">DiscordGG</div>
+                    <div class="tools">
+                        <ul>
+                            <li>Python</li>
+                            <li>API</li>
+                        </ul>
+                    </div>
+                    <div class="project-description">A discord bot that allows you to quickly find the statistic of League of Legend's players through commands.</div>
+                    <a href="https://github.com/pikachungg/Discord-opgg" target="_blank" class="project-link">Check my project!</a>
+                </div>
+                <div class="project-right">
+                    <a href="https://github.com/pikachungg/Discord-opgg" target="_blank"><img src="images/leaguegg.png" alt="picture-of-project"></a>
+                </div>
+            </div>
+
+
+
+            <div class="project" data-sal="slide-up"
+            data-sal-delay="300"
+            data-sal-easing="easeInOutSine">
                 <div class="project-left">
                     <div class="project-title">Welcome to Panama</div>
                     <div class="tools">
@@ -152,25 +174,6 @@
             </div>
 
 
-            <div class="project">
-                <div class="project-left">
-                    <div class="project-title">Where Now</div>
-                    <div class="tools">
-                        <ul>
-                            <li>UI & UX</li>
-                            <li>Prototype</li>
-                            <li>Figma</li>
-                        </ul>
-                    </div>
-                    <div class="project-description">Tourist website for my hometown Panama.</div>
-                    <a href="https://www.figma.com/proto/f07D2gA6wuwrOoxMovo4BJ/WhereNow?node-id=4%3A0&scaling=min-zoom" target="_blank" class="project-link">Check my project!</a>
-                </div>
-                <div class="project-right">
-                    <a href="https://www.figma.com/proto/f07D2gA6wuwrOoxMovo4BJ/WhereNow?node-id=4%3A0&scaling=min-zoom" target="_blank"><img src="images/wherenow.png" alt="picture-of-project"></a>
-                </div>
-            </div>
-
-
         </div>
 
     </div>
@@ -178,7 +181,7 @@
     <footer>
         <div class="one">
             <div class="footer-content">
-                Hello! I'm <span class="highlight">Daniel Chung</span>, a web developer who has a passion for problem solving, simple design, efficient code and user experience.
+                Hello! I'm <span class="highlight">Daniel Chung</span>, a web and mobile developer who has a passion for problem solving, simple design, efficient code and user experience.
             </div>
         </div>
         <div class="two">
@@ -190,7 +193,7 @@
                     (585) 766-7536
                 </p>
                 <p class="footer-content-contact">
-                    daniel.e.chung@hotmail.com
+                    dec8768@rit.edu
                 </p>
             </div>
         </div>
@@ -217,5 +220,9 @@
             </div>
         </div>
     </footer>
+    <script src="./node_modules/sal.js/dist/sal.js"></script>
+    <script>
+        sal();
+    </script>
 </body>
 </html>

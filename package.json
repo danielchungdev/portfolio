@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Daniel Chung's Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pikachungg/portfolio.git"
+  },
+  "author": "Daniel Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pikachungg/portfolio/issues"
+  },
+  "homepage": "https://github.com/pikachungg/portfolio#readme",
+  "dependencies": {
+    "sal.js": "^0.8.1",
+    "scrollreveal": "^4.0.7"
+  }
+}
